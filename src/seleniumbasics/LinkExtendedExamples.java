@@ -17,7 +17,7 @@ public class LinkExtendedExamples {
 		
 		WebElement homePageLink=driver.findElement(By.linkText("Go to Home Page"));
 		homePageLink.click();
-		
+		 
 		driver.navigate().back();
 		
 		WebElement whereToGo=driver.findElement(By.partialLinkText("Find where"));
