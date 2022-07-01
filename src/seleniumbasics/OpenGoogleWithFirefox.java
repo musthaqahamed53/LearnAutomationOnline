@@ -10,10 +10,10 @@ public class OpenGoogleWithFirefox {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.gecko.driver", "D:\\CTS\\geckodriver.exe");
+	System.setProperty("webdriver.gecko.driver", "D:\\CTS\\geckodriver.exe");
 		
-		WebDriver driver = new FirefoxDriver();
-		
+	WebDriver driver = new FirefoxDriver();
+	
 		driver.get("https://www.google.co.in");
 		
 		//enter a search term
