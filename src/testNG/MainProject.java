@@ -17,7 +17,7 @@ public class MainProject {
 		
 		driver.findElement(By.xpath("//*[@id=\'idSIButton9\']")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id=\'i0118\']")).sendKeys("Kingdom@420");
+		driver.findElement(By.xpath("//*[@id=\'i0118\']")).sendKeys("K*****@420");
 		driver.findElement(By.xpath("//*[@id=\'idSIButton9\']")).click();
 	}
 	
